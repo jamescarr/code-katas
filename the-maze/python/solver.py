@@ -1,5 +1,4 @@
 def solve_maze(maze, start, end, visited=[]):
-    visited.append(start)
     if start == end:
         return visited
 

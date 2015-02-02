@@ -27,3 +27,8 @@ Starting Point: 1,0
 End Point: 1,9
 
 
+## Tips
+
+- [Solving mazes using Python: Simple recursivity and A* search](http://www.laurentluce.com/posts/solving-mazes-using-python-simple-recursivity-and-a-search/) - examples of how to do it using two different algorithms. 
+
+
