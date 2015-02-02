@@ -36,7 +36,18 @@ class MazeSolverTest(TestCase):
             [1,9]
 
         ]
-        results = solve_maze(maze, [1,0], [1,9])
+        solution = solve_maze(maze, [1,0], [1,9])
 
         self.assertEquals(solution, expected_solution)
+
+    # what is the simplest first step we can take?'
+    def test_solve_simple_maze(self):
+        simple_maze = [
+            [1, 0, 1],
+            [0, 0, 0],
+            [1, 0, 1]
+        ]
+
+        self.assertEquals([[1,0], [1,1], [1,2]], solve_maze(simple_maze, [1,0], [1,2]))
+
 
