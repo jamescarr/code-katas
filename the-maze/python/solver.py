@@ -1,2 +1,2 @@
-def solve_maze():
+def solve_maze(maze, start, end):
     pass
